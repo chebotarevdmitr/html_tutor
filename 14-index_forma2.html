@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document_forma</title>
+</head>
+<body>
+ <h1>формы</h1>
+ <h2>сложные формы</h2>  
+ 
+     <form>
+        <p>
+            <label for="user_name">User name</label>
+            <input id="user_name" type="text" placeholder="Введите имя"  required>
+        </p>
+
+        <p>
+        <label for="userEmail">Email:</label>
+        <input id="userEmail" type="email" placeholder="Введите email">
+        </p>
+     <!--
+        <p>
+            <label for="user_city">User city</label>
+            <input id="user_city" type="text" placeholder="Введите город">
+        </p>
+    -->
+
+        <p>
+            <label for="date">Дата :</label>
+            <input id="date" type="date">
+        </p>
+
+        <p>
+            <label for="password">Пароль :</label>
+             <input id="password" type="password">
+        </p>
+
+        <h4>Чекбоксы </h4>
+        <p>
+            <h5>Выберите питание</h5>
+            <input type="checkbox" id="breakfast">
+            <label for="breakfast">Завтрак</label><br>
+           
+            <label>
+                <input type="checkbox" id="dinner">
+                Обед
+            </label>
+            <br>
+
+            <label>
+                <input type="checkbox" id="dinner">
+                Ужин
+            </label>
+            <br><br>
+        </p>
+
+         <h3>Выбрать напиток</h3>
+    
+          <input type="radio"id="tea" name="drink">
+          <label for="tea">Чай</label><br>
+
+        <input type="radio"id="coffe" name="drink">
+        <label for="coffe">Кофе</label><br>
+
+        <input type="radio" id="beer" name="drink">
+        <label for="beer">Пиво</label><br><br>
+
+        <h3>Выбрать город </h3>
+        <h4>выпадающие окна</h4>
+
+        <label for="select-city">Выбрать город</label><br>
+        <select id="select-city"name="">
+            <option value="moscow">Москва</option>
+            <option value="sevastopol" selected> Севастополь</option>
+            <option value="minsk">Минск</option>
+            <option value="tokio">Токио</option>
+        </select>
+        <br><br>
+        <h3>выбор файла</h3>
+
+         <label for="file">Прикрепите файл</label><br>
+         <input type="file" id="file">
+         <br><br>
+
+       <input type="submit">
+       <input type="reset">
+       
+     </form>
+</body>
+</html>
